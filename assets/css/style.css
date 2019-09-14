@@ -1,0 +1,36 @@
+body {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.main-attractive-view {
+    height: 97vh;
+    background-image: linear-gradient(to bottom, #b6bdff, #fffaff);    
+    background-repeat: repeat;
+}
+
+
+.magpieos-headline{
+    font-size: 86px;
+    font-weight: bold;    
+}
+.tagline{
+
+    font-size: 16px;
+}
+
+.top-narrow-header{
+    padding: 3px;
+    background-image: linear-gradient(to right, #fc7100, #0cf318);
+}
+nav{
+    /* background-image: linear-gradient(to bottom, #007535,#b4b4b4 );   */
+    background-color: rgb(189, 255, 255);
+    padding-right: 6rem !important;
+    padding-left: 1rem !important;
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+    /* position: fixed !important; */
+    top: 0;
+}
