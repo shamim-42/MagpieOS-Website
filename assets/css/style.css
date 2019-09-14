@@ -56,6 +56,15 @@ nav{
     box-shadow: 5px 5px 3px #222;
 }
 
+.navbar-nav a{
+    color: rgb(6, 19, 201) !important;
+}
+
+.navbar-nav a:hover{
+    color: rgb(255, 255, 255) !important;
+    background-color: #222;
+}
+
 
 .feature-simple-container{
     height: 150px;
@@ -107,4 +116,7 @@ nav{
 
 .developer-section{
     background-color: #fad3e5;
+}
+.footer{
+    font-size: 13px !important;
 }

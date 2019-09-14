@@ -13,7 +13,6 @@
 	<!-- Material Design Bootstrap -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/css/mdb.min.css" rel="stylesheet">
 
-
 	<!-- JQuery -->
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
@@ -39,7 +38,7 @@
 <div class="collapse navbar-collapse " id="basicExampleNav">
 
   <!-- Links -->
-  <ul class="navbar-nav ml-auto font-weight-normal">
+  <ul class="navbar-nav ml-auto font-weight-normal animated zoomInRight">
 
  	<li class="nav-item">
 	  <a class="nav-link" href="#">Docs</a>
@@ -50,14 +49,14 @@
 		<a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
 			aria-haspopup="true" aria-expanded="false">Source Code</a>
 		<div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-			<a class="dropdown-item" href="#">Action</a>
-			<a class="dropdown-item" href="#">Another action</a>
-			<a class="dropdown-item" href="#">Something else here</a>
+			<a class="dropdown-item" href="https://github.com/Rizwan-Hasan/MagpieOS">MagpieOS Gnome</a>
+			<a class="dropdown-item" href="https://github.com/magpie-linux/archiso-xfce">MagpieOS Xfce</a>
+			<a class="dropdown-item" href="https://github.com/Rizwan-Hasan">MagpieOS Others</a>
 		</div>
 	</li>
 	
 	<li class="nav-item">
-	  <a class="nav-link" href="#">Download
+	  <a class="nav-link" href="https://sourceforge.net/projects/magpieos/files/">Download
 		<span class="sr-only">(current)</span>
 	  </a>
 	</li>
@@ -77,8 +76,8 @@
 		</div>
 		<div class="main-attractive-view-content-overlay py-5 d-flex align-items-start justify-content-center">
 			<div>
-				<p class="magpieos-headline text-center">Magpie OS</p>
-				<p class="tagline text-center">Get a fresh experience of Arch Linux !</p>
+				<p class="magpieos-headline text-center animated fadeInDown">Magpie OS</p>
+				<p class="tagline text-center animated fadeInUp">Get a fresh experience of Arch Linux !</p>
 			</div>
 		</div>
 	</div>
@@ -86,13 +85,13 @@
 		<div class="col">
 			<div class="p-5 d-flex align-items-center justify-content-center">
 				<div>
-					<img src="<?php echo base_url('assets/img/magpieos_logo.png') ?>" alt="Magpie OS logo" height="200px">
+					<img class="animated zoomIn" src="<?php echo base_url('assets/img/magpieos_logo.png') ?>" alt="Magpie OS logo" height="200px">
 				</div>			
 			</div>
 		</div>
 		<div class="col">
 			<div class="p-5 d-flex align-items-center justify-content-center">
-				<div>
+				<div class=" animated fadeIn">
 					<h3 class="text-info font-weight-normal mb-4 text-center">What MagpieOS is ?</h3>
 					<p class="font-weight-normal text-center" style="font-size: 18px;">
 						MagpieOS is an Arch based linux operating system that is very simple, easy to use and smooth in experience.
@@ -107,7 +106,7 @@
 			<h3 class="font-weight-normal mb-4 text-center">Key Features</h3>
 		</div>
 		<div class="col-md-4 p-4 d-flex flex-column align-items-center justify-content-center">
-			<div class="feature-simple-container d-flex flex-column justify-content-center align-items-center bg-white">
+			<div class="feature-simple-container d-flex flex-column justify-content-center align-items-center bg-white animated fadeInDown">
 				<div class="feature-simple">
 					<i class="fas fa-laptop fa-5x feature-simple-icon"></i>
 				</div>					
@@ -117,7 +116,7 @@
 		</div>
 		
 		<div class="col-md-4 p-4 d-flex flex-column align-items-center justify-content-center">
-			<div class="feature-simple-container d-flex flex-column justify-content-center align-items-center bg-white">
+			<div class="feature-simple-container d-flex flex-column justify-content-center align-items-center bg-white animated fadeInDown">
 				<div class="feature-simple">
 					<i class="fas fa-umbrella-beach fa-5x feature-easy-icon"></i>					
 				</div>					
@@ -128,7 +127,7 @@
 
 		
 		<div class="col-md-4 p-4 d-flex flex-column align-items-center justify-content-center">
-			<div class="feature-simple-container d-flex flex-column justify-content-center align-items-center bg-white">
+			<div class="feature-simple-container d-flex flex-column justify-content-center align-items-center bg-white animated fadeInDown">
 				<div class="feature-simple">					
 					<i class="fas fa-lock-open fa-5x feature-open-icon"></i>					
 				</div>					
@@ -254,8 +253,36 @@
 		</div>
 	</div>
 
-	<div class="row p-5 bg-dark">
-		
+	<div class="row p-5 bg-dark text-light footer">
+		<div class="col-md-4">
+			<h6 class="font-weight-normal">About Magpie:</h6>
+			<p>MagpieOS is a derivative distribution of Arch Linux and it is the Bangladeshi made linux distribution. </p>
+		</div>
+
+		<div class="col-md-4">
+			<h6 class="font-weight-normal">Contact Me</h6>
+			<ul>
+				<a href="#"><li class="link">Email: rizwan.hasan486@gmail.com</li></a>
+				<a href="https:/facebook.com/rizwan.hasan.106"><li>Facebook: Rizwan Hasan</li></a>
+				<a href="https://twitter.com/Linux_Saikat"><li>Twitter: @Linux_Saikat</li></a>
+				<a href="href=https://desktop.telegram.org/"><li>Twitter: @RizwanHasan</li></a>
+
+			</ul>
+		</div>
+
+		<div class="col-md-4">
+			<h6 class="font-weight-normal text-center">Join our mailing list</h6>
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Type your mail id" />
+				<button class="btn btn-sm btn-info ml-0 text-center">Submit</button>
+				<p class="d-flex align-items-center justify-content-start">Stay in Touch on facebook - &nbsp;<a href="https://www.facebook.com/magpieos/"><i class="text-primary fa-2x fab fa-facebook"></i></a></p>
+			</div>
+		</div>
+	</div>
+	<div class="row dark blue p-1">
+		<div class="col">
+			<div class="text-center small"><i class="fas fa-1x fa-copyright"></i> 2019 Copyright: MagpieOS</div>
+		</div>
 	</div>
 </div>
 
