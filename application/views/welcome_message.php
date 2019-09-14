@@ -36,7 +36,7 @@
 </button>
 
 <!-- Collapsible content -->
-<div class="collapse navbar-collapse" id="basicExampleNav">
+<div class="collapse navbar-collapse " id="basicExampleNav">
 
   <!-- Links -->
   <ul class="navbar-nav ml-auto font-weight-normal">
@@ -70,12 +70,192 @@
 <!--/.Navbar-->
 
 
-<div class="container-fluid bg-success">
+<div class="container-fluid">
 	<div class="row justify-content-center align-items-center">
-		<div class="col bg-warning main-attractive-view py-5">
-			<p class="magpieos-headline text-center">Magpie OS</p>
-			<p class="tagline text-center">Get a fresh experience of Arch Linux</p>
+		<div class="col main-attractive-view py-5 d-flex align-items-start justify-content-center">
+			<!-- This div is for the background	 -->
 		</div>
+		<div class="main-attractive-view-content-overlay py-5 d-flex align-items-start justify-content-center">
+			<div>
+				<p class="magpieos-headline text-center">Magpie OS</p>
+				<p class="tagline text-center">Get a fresh experience of Arch Linux !</p>
+			</div>
+		</div>
+	</div>
+	<div class="row bg-white p-5">
+		<div class="col">
+			<div class="p-5 d-flex align-items-center justify-content-center">
+				<div>
+					<img src="<?php echo base_url('assets/img/magpieos_logo.png') ?>" alt="Magpie OS logo" height="200px">
+				</div>			
+			</div>
+		</div>
+		<div class="col">
+			<div class="p-5 d-flex align-items-center justify-content-center">
+				<div>
+					<h3 class="text-info font-weight-normal mb-4 text-center">What MagpieOS is ?</h3>
+					<p class="font-weight-normal text-center" style="font-size: 18px;">
+						MagpieOS is an Arch based linux operating system that is very simple, easy to use and smooth in experience.
+						It is fit in any kind of modern machines as well as the earlier versions of hardware.
+					</p>
+				</div>				
+			</div>
+		</div>
+	</div>
+	<div class="row bg-light p-5">
+		<div class="col-12">
+			<h3 class="font-weight-normal mb-4 text-center">Key Features</h3>
+		</div>
+		<div class="col-md-4 p-4 d-flex flex-column align-items-center justify-content-center">
+			<div class="feature-simple-container d-flex flex-column justify-content-center align-items-center bg-white">
+				<div class="feature-simple">
+					<i class="fas fa-laptop fa-5x feature-simple-icon"></i>
+				</div>					
+			</div>
+			<h4 class="font-weight-bold feature-simple-text">Simple</h4>
+			<p class="text-center text-dark font-weight-normal">Design is kept very simple keeping in mind the end user's experience ! </p>	
+		</div>
+		
+		<div class="col-md-4 p-4 d-flex flex-column align-items-center justify-content-center">
+			<div class="feature-simple-container d-flex flex-column justify-content-center align-items-center bg-white">
+				<div class="feature-simple">
+					<i class="fas fa-umbrella-beach fa-5x feature-easy-icon"></i>					
+				</div>					
+			</div>
+			<h4 class="font-weight-bold feature-easy-text">Easy</h4>
+			<p class="text-center text-dark font-weight-normal">Easy to use. New user can also be adopted very easily. </p>	
+		</div>
+
+		
+		<div class="col-md-4 p-4 d-flex flex-column align-items-center justify-content-center">
+			<div class="feature-simple-container d-flex flex-column justify-content-center align-items-center bg-white">
+				<div class="feature-simple">					
+					<i class="fas fa-lock-open fa-5x feature-open-icon"></i>					
+				</div>					
+			</div>
+			<h4 class="font-weight-bold feature-open-text">Open</h4>
+			<p class="text-center text-dark font-weight-normal">All the source code is Open ! Anyone can get the code instantly and can also contribute the project. </p>	
+		</div>
+	</div>
+	<div class="row screenshot-portion p-5">
+		<div class="col-12">
+			<h3 class="text-white text-center font-weight-normal mb-4 animated fadeIn">Take a look on</h3>
+		</div>
+		<div class="col-md-4 p-4">
+			<div class="card animated zoomInLeft">
+			  <img class="card-img-top" src="<?php echo base_url('assets/img/screenshot/1.jpg')?>" alt="">
+			  <div class="card-body p-1">
+				<h5 class="card-title text-center">Text Editor</h5>				
+			  </div>
+			</div>
+		</div>
+
+		<div class="col-md-4 p-4">
+			<div class="card animated zoomInDown">
+			  <img class="card-img-top" src="<?php echo base_url('assets/img/screenshot/5.jpg')?>" alt="">
+			  <div class="card-body p-1">
+				<h5 class="card-title text-center">About Gnome</h5>				
+			  </div>
+			</div>
+		</div>
+
+		<div class="col-md-4 p-4">
+			<div class="card animated zoomInRight">
+			  <img class="card-img-top" src="<?php echo base_url('assets/img/screenshot/7.jpg')?>" alt="">
+			  <div class="card-body p-1">
+				<h5 class="card-title text-center">Applications</h5>				
+			  </div>
+			</div>
+		</div>
+
+		<div class="col-md-4 p-4">
+			<div class="card animated zoomInLeft">
+			  <img class="card-img-top" src="<?php echo base_url('assets/img/screenshot/8.jpg')?>" alt="">
+			  <div class="card-body p-1">
+				<h5 class="card-title text-center">File Manager</h5>				
+			  </div>
+			</div>
+		</div>
+
+		<div class="col-md-4 p-4">
+			<div class="card animated zoomInUp">
+			  <img class="card-img-top" src="<?php echo base_url('assets/img/screenshot/11.jpg')?>" alt="">
+			  <div class="card-body p-1">
+				<h5 class="card-title text-center">Gnome Terminal</h5>				
+			  </div>
+			</div>
+		</div>
+
+		<div class="col-md-4 p-4">
+			<div class="card animated zoomInRight">
+			  <img class="card-img-top" src="<?php echo base_url('assets/img/screenshot/12.jpg')?>" alt="">
+			  <div class="card-body p-1">
+				<h5 class="card-title text-center">Setting</h5>				
+			  </div>
+			</div>
+		</div>
+	</div>
+	<div class="row bg-white p-5 justify-content-center">
+		<div class="col-12 mb-2">
+			<h3 class="font-weight-normal text-center">Getting Started with MagpieOS</h3>
+		</div>
+
+		<div class="col-md-10">
+			<div class="row getting-started-component my-4 p-3 justify-content-center align-items-center rounded">
+				<div class="col-md-5">
+					<h5 class="font-weight-bold">Download</h5>
+					<p>Download the lastest verion of our OS and get it flashed onto a USB drive to get started, or run it from a VM environment!</p>
+				</div>
+				<div class="col-md-5 d-flex align-items-center justify-content-center">
+					<div class="download-icon-container d-flex align-items-center justify-content-center">
+						<i class="fas fa-download fa-5x text-danger"></i>
+					</div>
+				</div>
+			</div>
+
+			<div class="row getting-started-component my-4 p-3 justify-content-center align-items-center rounded">
+				<div class="col-md-5">
+					<h5 class="font-weight-bold">Install</h5>
+					<p>After downloading you can try MagpieOS to give it a test drive before installing to see if you like it, after that get going with our guide if you need help with the install procedure</p>
+				</div>
+				<div class="col-md-5 d-flex align-items-center justify-content-center">
+					<div class="download-icon-container d-flex align-items-center justify-content-center">
+						<i class="fas fa-cogs fa-5x text-info"></i>						
+					</div>
+				</div>
+			</div>
+
+			<div class="row getting-started-component my-4 p-3 justify-content-center align-items-center rounded">
+				<div class="col-md-5">
+					<h5 class="font-weight-bold">Start Using</h5>
+					<p>After installing feel free to MagpieOS in your days. If you find something complex please see the doc.</p>
+				</div>
+				<div class="col-md-5 d-flex align-items-center justify-content-center">
+					<div class="download-icon-container d-flex align-items-center justify-content-center">
+						<i class="fas fa-business-time fa-5x text-primary"></i>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+	<div class="row justify-content-center developer-section p-5">
+		<div class="col-md-12">
+			<h3 class="font-weight-normal text-center mb-5">Developer</h3>
+		</div>
+		<div class="col-md-4">
+			<div class="card text-center">
+				<div class="card-body">
+					<h4>Rizwan Hassan</h4>
+				</div>			  
+			  <div class="card-footer">
+				<p class="card-title small">Developer, MagpieOS.</p>				
+			  </div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row p-5 bg-dark">
+		
 	</div>
 </div>
 
