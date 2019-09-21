@@ -81,7 +81,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="row bg-white p-5">
+	<div class="row bg-white py-5 px-sm-1 px-md-2 px-lg-3">
 		<div class="col">
 			<div class="p-5 d-flex align-items-center justify-content-center">
 				<div>
@@ -90,10 +90,10 @@
 			</div>
 		</div>
 		<div class="col">
-			<div class="p-5 d-flex align-items-center justify-content-center">
-				<div class=" animated fadeIn">
+			<div class="p-lg-5 p-md-3 p-sm-1 d-flex align-items-center justify-content-center">
+				<div class="animated fadeIn">
 					<h3 class="text-info font-weight-normal mb-4 text-center">What MagpieOS is ?</h3>
-					<p class="font-weight-normal text-center" style="font-size: 18px;">
+					<p class="font-weight-normal text-center">
 						MagpieOS is an Arch based linux operating system that is very simple, easy to use and smooth in experience.
 						It is fit in any kind of modern machines as well as the earlier versions of hardware.
 					</p>
@@ -237,23 +237,16 @@
 			</div>
 		</div>	
 	</div>
-	<div class="row justify-content-center developer-section p-5">
+	<div class="row justify-content-center developer-section px-sm-1 px-md-2 px-lg-3">
 		<div class="col-md-12">
-			<h3 class="font-weight-normal text-center mb-5">Developer</h3>
+			<h3 class="font-weight-normal text-center white-text">Developer</h3>
 		</div>
-		<div class="col-md-4">
-			<div class="card text-center">
-				<div class="card-body">
-					<h4>Rizwan Hassan</h4>
-				</div>			  
-			  <div class="card-footer">
-				<p class="card-title small">Developer, MagpieOS.</p>				
-			  </div>
-			</div>
+		<div class="col-md-8">
+			<h5 class="text-center developer-name">Rizwan Hassan</h5>
 		</div>
 	</div>
 
-	<div class="row p-5 bg-dark text-light footer">
+	<div class="row py-5 px-sm-1 px-md-2 px-lg-3 bg-dark text-light footer">
 		<div class="col-md-4">
 			<h6 class="font-weight-normal">About Magpie:</h6>
 			<p>MagpieOS is a derivative distribution of Arch Linux and it is the Bangladeshi made linux distribution. </p>

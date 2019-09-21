@@ -115,8 +115,16 @@ nav{
 }
 
 .developer-section{
-    background-color: #fad3e5;
+    background-color: #04022b;
+    padding-top: 30px;
+    padding-bottom: 150px;
 }
+
+.developer-name{
+    text-align: center;
+    color: #c2bfff
+}
+
 .footer{
     font-size: 13px !important;
 }
