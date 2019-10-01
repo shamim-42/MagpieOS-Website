@@ -223,7 +223,7 @@
 <nav class="navbar navbar-expand-lg navbar-light">
 
 <!-- Navbar brand -->
-<a class="navbar-brand font-weight-normal animated fadeInDown" href="<?php echo base_url()?>">Magpie OS</a>
+<a class="navbar-brand font-weight-normal animated fadeInDown" href="<?php echo base_url()?>"> <?php echo $value[0]->headline;?> </a>
 
 <!-- Collapse button -->
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
@@ -275,8 +275,8 @@
 		</div>
 		<div class="main-attractive-view-content-overlay py-5">
 			<div>
-				<p class="magpieos-headline text-center animated fadeInDownBig">Magpie OS</p>
-				<p class="tagline text-center animated fadeInUp">Get a fresh experience of Arch Linux !</p>
+				<p class="magpieos-headline text-center animated fadeInDownBig"><?php echo $value[0]->headline;?></p>
+				<p class="tagline text-center animated fadeInUp"><?php echo $value[0]->tagline;?></p>
 			</div>
 		</div>
 	</div>
