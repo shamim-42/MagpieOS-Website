@@ -4,21 +4,33 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">	
 
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="<?php echo base_url('assets/css/style.css'); ?>" />
+
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+
 	<!-- Bootstrap core CSS -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+	<!-- <link rel="stylesheet" href="<?= base_url('assets/css/bootstrap.min.css') ?>"  /> -->
+
+
 	<!-- Material Design Bootstrap -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/css/mdb.min.css" rel="stylesheet">
+	<!-- <link rel="stylesheet" href="<?php echo base_url('assets/css/mdb.min.css'); ?>" -->
+
+
 
 	<!-- JQuery -->
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!-- <script type="text/javascript" src="<?php echo base_url('assets/js/jquery-3.3.1.min.js'); ?>"></script> -->
+
 
 	<title>Magpie OS | Get a fresh experience of Arch Linux</title>
 
-	<script>
-		new WOW().init();
-		$('#')
+	<script type="text/javascript">
+    	new WOW().init();
 	</script>
 
 	<style>
@@ -268,14 +280,14 @@
 
 
 
-<div class="container-fluid">
+<div class="container-fluid">	
 	<div class="row justify-content-center align-items-center">
 		<div class="col main-attractive-view py-5 d-flex align-items-start justify-content-center">
 			<!-- This div is for the background	 -->
 		</div>
 		<div class="main-attractive-view-content-overlay py-5">
 			<div>
-				<p class="magpieos-headline text-center animated fadeInDownBig"><?php echo $value[0]->headline;?></p>
+				<p class="magpieos-headline text-center wow fadeInDown"><?php echo $value[0]->headline;?></p>
 				<p class="tagline text-center animated fadeInUp"><?php echo $value[0]->tagline;?></p>
 			</div>
 		</div>
@@ -284,17 +296,16 @@
 		<div class="col">
 			<div class="p-5 d-flex align-items-center justify-content-center">
 				<div>
-					<img class="animated zoomIn" src="<?php echo base_url('assets/img/magpieos_logo.png') ?>" alt="Magpie OS logo" height="200px">
+					<img class="wow zoomIn" src="<?php echo base_url('assets/img/magpieos_logo.png') ?>" alt="Magpie OS logo" height="200px">
 				</div>			
 			</div>
 		</div>
 		<div class="col">
 			<div class="p-lg-5 p-md-3 p-sm-1 d-flex align-items-center justify-content-center">
-				<div class="animated fadeIn">
+				<div class="wow slideInDown">
 					<h3 class="text-info font-weight-normal mb-4 text-center">What MagpieOS is ?</h3>
 					<p class="font-weight-normal text-center">
-						MagpieOS is an Arch based linux operating system that is very simple, easy to use and smooth in experience.
-						It is fit in any kind of modern machines as well as the earlier versions of hardware.
+						<?php echo $value[0]->what_magpieos_is;?>
 					</p>
 				</div>				
 			</div>
@@ -302,37 +313,37 @@
 	</div>
 	<div class="row bg-light p-5">
 		<div class="col-12">
-			<h3 class="font-weight-normal mb-4 text-center wow fadeInUp">Key Features</h3>
+			<h3 class="font-weight-normal mb-4 text-center wow fadeInDown">Key Features</h3>
 		</div>
 		<div class="col-md-4 p-4 d-flex flex-column align-items-center justify-content-center">
-			<div class="feature-simple-container d-flex flex-column justify-content-center align-items-center bg-white animated fadeInDown">
+			<div class="feature-simple-container d-flex flex-column justify-content-center align-items-center bg-white">
 				<div class="feature-simple">
-					<i class="fas fa-laptop fa-5x feature-simple-icon"></i>
+					<i class="fas fa-laptop fa-5x feature-simple-icon wow zoomIn"></i>
 				</div>					
 			</div>
-			<h4 class="font-weight-bold feature-simple-text">Simple</h4>
-			<p class="text-center text-dark font-weight-normal">Design is kept very simple keeping in mind the end user's experience ! </p>	
+			<h4 class="font-weight-bold feature-simple-text wow fadeInUp">Simple</h4>
+			<p class="text-center text-dark font-weight-normal wow fadeIn">Design is kept very simple keeping in mind the end user's experience ! </p>	
 		</div>
 		
 		<div class="col-md-4 p-4 d-flex flex-column align-items-center justify-content-center">
-			<div class="feature-simple-container d-flex flex-column justify-content-center align-items-center bg-white animated fadeInDown">
+			<div class="feature-simple-container d-flex flex-column justify-content-center align-items-center bg-white">
 				<div class="feature-simple">
-					<i class="fas fa-umbrella-beach fa-5x feature-easy-icon"></i>					
+					<i class="fas fa-umbrella-beach fa-5x feature-easy-icon wow zoomIn"></i>					
 				</div>					
 			</div>
-			<h4 class="font-weight-bold feature-easy-text">Easy</h4>
-			<p class="text-center text-dark font-weight-normal">Easy to use. New user can also be adopted very easily. </p>	
+			<h4 class="font-weight-bold feature-easy-text  wow fadeInUp">Easy</h4>
+			<p class="text-center text-dark font-weight-normal wow fadeIn">Easy to use. New user can also be adopted very easily. </p>	
 		</div>
 
 		
 		<div class="col-md-4 p-4 d-flex flex-column align-items-center justify-content-center">
-			<div class="feature-simple-container d-flex flex-column justify-content-center align-items-center bg-white animated fadeInDown">
+			<div class="feature-simple-container d-flex flex-column justify-content-center align-items-center bg-white">
 				<div class="feature-simple">					
-					<i class="fas fa-lock-open fa-5x feature-open-icon"></i>					
+					<i class="fas fa-lock-open fa-5x feature-open-icon wow zoomIn"></i>					
 				</div>					
 			</div>
-			<h4 class="font-weight-bold feature-open-text">Open</h4>
-			<p class="text-center text-dark font-weight-normal">All the source code is Open ! Anyone can get the code instantly and can also contribute the project. </p>	
+			<h4 class="font-weight-bold feature-open-text wow fadeInUp">Open</h4>
+			<p class="text-center text-dark font-weight-normal wow fadeIn">All the source code is Open ! Anyone can get the code instantly and can also contribute the project. </p>	
 		</div>
 	</div>
 	<div class="row screenshot-portion p-5">
@@ -395,42 +406,42 @@
 	</div>
 	<div class="row bg-white p-5 justify-content-center">
 		<div class="col-12 mb-2">
-			<h3 class="font-weight-normal text-center animated fadeInDown">Getting Started with MagpieOS</h3>
+			<h3 class="font-weight-normal text-center wow zoomIn">Getting Started with MagpieOS</h3>
 		</div>
 
 		<div class="col-md-10">
 			<div class="row getting-started-component my-4 p-3 justify-content-center align-items-center rounded">
-				<div class="col-md-5 animated flipInX">
+				<div class="col-md-5 wow flipInX">
 					<h5 class="font-weight-bold">Download</h5>
 					<p>Download the lastest verion of our OS and get it flashed onto a USB drive to get started, or run it from a VM environment!</p>
 				</div>
 				<div class="col-md-5 d-flex align-items-center justify-content-center">
 					<div class="download-icon-container d-flex align-items-center justify-content-center">
-						<i class="fas fa-download fa-5x text-danger animated zoomIn"></i>
+						<i class="fas fa-download fa-5x text-danger wow zoomIn"></i>
 					</div>
 				</div>
 			</div>
 
 			<div class="row getting-started-component my-4 p-3 justify-content-center align-items-center rounded">
-				<div class="col-md-5 animated flipInX">
+				<div class="col-md-5 wow flipInYBig">
 					<h5 class="font-weight-bold">Install</h5>
 					<p>After downloading you can try MagpieOS to give it a test drive before installing to see if you like it, after that get going with our guide if you need help with the install procedure</p>
 				</div>
 				<div class="col-md-5 d-flex align-items-center justify-content-center">
 					<div class="download-icon-container d-flex align-items-center justify-content-center">
-						<i class="fas fa-cogs fa-5x text-info animated zoomIn"></i>						
+						<i class="fas fa-cogs fa-5x text-info wow zoomIn"></i>						
 					</div>
 				</div>
 			</div>
 
 			<div class="row getting-started-component my-4 p-3 justify-content-center align-items-center rounded">
-				<div class="col-md-5 animated flipInX">
+				<div class="col-md-5 wow flipInX">
 					<h5 class="font-weight-bold">Start Using</h5>
 					<p>After installing feel free to MagpieOS in your days. If you find something complex please see the doc.</p>
 				</div>
 				<div class="col-md-5 d-flex align-items-center justify-content-center">
 					<div class="download-icon-container d-flex align-items-center justify-content-center">
-						<i class="fas fa-business-time fa-5x text-primary animated zoomIn"></i>
+						<i class="fas fa-business-time fa-5x text-primary wow zoomIn"></i>
 					</div>
 				</div>
 			</div>
@@ -438,7 +449,7 @@
 	</div>
 	<div class="row justify-content-center developer-section px-sm-1 px-md-2 px-lg-3">
 		<div class="col-md-6 d-flex align-items-center justify-content-center">
-			<h3 class="font-weight-normal text-center white-text font-weight-bold">Developer</h3>
+			<h3 class="font-weight-normal text-center white-text font-weight-bold wow fadeInUp">Developer</h3>
 		</div>
 		<div class="col-md-6">
 			<h4 class="text-center developer-name font-weight-bold">Rizwan Hassan</h4>
@@ -451,7 +462,9 @@
 	<div class="row py-5 px-sm-1 px-md-2 px-lg-3 bg-dark text-light footer">
 		<div class="col-md-4">
 			<h6 class="font-weight-normal">About Magpie:</h6>
-			<p>MagpieOS is a derivative distribution of Arch Linux and it is the Bangladeshi made linux distribution. </p>
+			<p>
+				<?php echo $value[0]->about_magpieos;?>
+			</p>
 		</div>
 
 		<div class="col-md-4">
@@ -488,5 +501,10 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/js/mdb.min.js"></script>	
+
+<script type="text/javascript">
+	new WOW().init();
+</script>
+
 </body>
 </html>

@@ -128,3 +128,7 @@ nav{
 .footer{
     font-size: 13px !important;
 }
+
+.wow {
+    visibility: hidden;
+}
